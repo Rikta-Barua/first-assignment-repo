@@ -162,62 +162,87 @@
 /* always section start */
 
 
-.always-section{
-    width:900px;
-    height:300px;
-    right:210px;
-background-repeat: no-repeat;
-background-image:url('/images/watch.png') ;
-margin: 20px 19px 10px 10px;
-/* margin-right: 600px; */
+.always-section {
+    width: 900px;
+    height: 300px;
+    right: 210px;
+    background-repeat: no-repeat;
+    background-image: url('/images/watch.png');
+    margin: 20px 19px 10px 10px;
+    /* margin-right: 600px; */
 }
 
 
-.always-container{
-padding: 70px;
+.always-container {
+    padding: 70px;
+    /* always section end */
 }
 
-
-
-
-
-
-
-
-
-
-
-.always-section h1{
+.always-section h1 {
     font-family: 'Work Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-color:white;
-    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+
 }
 
-
-
-.always-section button{
+.always-section button {
     position: absolute;
-width: 160px;
-height: 64px;
-font-weight: bold;
-background-color: bisque;
-border-radius: 6px;
-border:none;
+    width: 160px;
+    height: 64px;
+    font-weight: bold;
+    background-color: bisque;
+    border-radius: 6px;
+    border: none;
 
 }
-
-
-
-
-
-/* always section end */
-
 
 /* footer-section-start */
-.footer-section{
-    display:flex;
+.footer-section {
+    background-color: black;
+
+ 
+
+
+
 }
+.future-items{
+    position: absolute;
+width: 485px;
+height: 300px;
+left: 230px;
+top: 2783px;
+color:bisque;
+padding:40px;
+background-color: black;
+
+
+
+
+}
+.future-section.future-items h1 p{
+    color:bisque;
+}
+
+
+.subscribe-items{
+    position: absolute;
+width: 325px;
+height: 204px;
+left: 1046px;
+top: 2782px;
+padding: 10px;
+background-color: black;
+color:bisque
+
+}
+
+.subscribe-items button{
+    background-color: blue;
+    color:white;
+}
+
+
+
 /* footer-section-end */
