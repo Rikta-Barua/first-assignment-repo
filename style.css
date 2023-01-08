@@ -1,0 +1,223 @@
+/* header styles start */
+/* *{
+    margin:0;
+    padding:0;
+} */
+.banner-section {
+    background-image: url('images/banner/banner3.png');
+    height: 100vh;
+    /* display:flex; */
+    position: absolute;
+    width: 1600px;
+    height: 805px;
+    left: 0px;
+    top: 0px;
+}
+
+.banner-title {
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+
+    color: #FFFFFF;
+}
+
+.banner-description {
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+
+
+
+.btn-primary {
+
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    border-radius: 5px;
+    border: 0;
+    background-color: bisque;
+
+    font-weight: bold;
+
+
+}
+
+/* header styles end */
+
+
+/* main styles start */
+.main-section {
+    background-image: url('images/person.png');
+    position: absolute;
+    width: 1269px;
+    height: 724px;
+    left: -44px;
+    top: 937px;
+    background-repeat: no-repeat;
+
+
+}
+
+.main-items {
+    position: absolute;
+    width: 492.06px;
+    height: 400px;
+    left: 670px;
+    top: 250px;
+
+
+}
+
+.main-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+
+
+
+
+}
+
+.main-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+
+
+
+}
+
+.tick-item i {
+    color: tomato;
+    margin: 10px;
+}
+
+.tick-item p {
+    color: gray;
+}
+
+.my-plans-section {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+
+
+
+}
+
+.my-plan-title {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.my-plans-section .my-plans-item {
+    margin-right: 80px;
+    padding: 50px;
+
+
+
+}
+
+.my-plans-item h4 {
+    font-weight: bold;
+    font-size: large;
+    color: green
+}
+
+.my-plans-item p {
+    color: gray;
+}
+
+/* main styles end */
+
+
+
+
+/* always section start */
+
+
+.always-section{
+    width:900px;
+    height:300px;
+    right:210px;
+background-repeat: no-repeat;
+background-image:url('/images/watch.png') ;
+margin: 20px 19px 10px 10px;
+/* margin-right: 600px; */
+}
+
+
+.always-container{
+padding: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.always-section h1{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color:white;
+    
+}
+
+
+
+.always-section button{
+    position: absolute;
+width: 160px;
+height: 64px;
+font-weight: bold;
+background-color: bisque;
+border-radius: 6px;
+border:none;
+
+}
+
+
+
+
+
+/* always section end */
+
+
+/* footer-section-start */
+.footer-section{
+    display:flex;
+}
+/* footer-section-end */
